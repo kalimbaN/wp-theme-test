@@ -16,8 +16,11 @@
 	<h1><?php esc_html_e( 'KAPP', 'kapp-test-theme' ); ?></h1>
 	<?php echo Theme_Utils::instance()->greeting(); ?>
 	<p>
+	<bold>
+	<?php echo esc_html__( 'This is Kapp Theme' ); ?>
+	</bold>
 	<?php
-	echo esc_html_e( 'Hey ' );
+	echo esc_html_e( 'Hey Chris ' );
 	do_action( 'user-greeting' );
 	?>
 	</p>
